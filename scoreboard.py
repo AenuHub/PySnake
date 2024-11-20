@@ -9,7 +9,6 @@ class Scoreboard(Turtle):
         self.hideturtle()
         self.goto(0, 370)
         self.score = 0
-        self.high_score = 0
         with open("data.txt") as data:
             self.high_score = int(data.read())
         self.write_score()
