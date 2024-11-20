@@ -16,7 +16,8 @@ PySnake is a classic Snake game implemented in Python. Navigate the snake with a
 ### Possible Future Improvements 
 - Add levels or speed increases as the game progresses.
 - Include additional obstacles or power-ups.
-- Implement a leaderboard for high scores.
+- Implement a method for saving and displaying high scores. ✅
+- Add a custom theme or color scheme.
 
 ## Contributions
 Contributions are welcome! Feel free to open issues or submit pull requests to improve the project.
