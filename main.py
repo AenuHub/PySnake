@@ -32,7 +32,7 @@ while game_is_on:
         snake.extend()
 
     if snake.wall_check() or snake.snake_check():
-        game_is_on = False
-        scoreboard.game_over()
+        scoreboard.reset_score()
+        snake.reset()
 
 screen.exitonclick()
